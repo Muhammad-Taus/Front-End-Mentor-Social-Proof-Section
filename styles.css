@@ -1,9 +1,27 @@
-:root{
-    
---clr-eryDarkMagenta: hsl(300, 43%, 22%);
---clr-SoftPink: hsl(333, 80%, 67%);
+:root {
 
---clr-DarkGrayishMagenta: hsl(303, 10%, 53%);
---clr-LightGrayishMagenta: hsl(300, 24%, 96%);
---clrWhite: hsl(0, 0%, 100%);
+    --clr-eryDarkMagenta: hsl(300, 43%, 22%);
+    --clr-SoftPink: hsl(333, 80%, 67%);
+
+    --clr-DarkGrayishMagenta: hsl(303, 10%, 53%);
+    --clr-LightGrayishMagenta: hsl(300, 24%, 96%);
+    --clrWhite: hsl(0, 0%, 100%);
+}
+
+*,
+*::before,
+*::after {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
 }
