@@ -1,6 +1,6 @@
 :root {
 
-    --clr-eryDarkMagenta: hsl(300, 43%, 22%);
+    --clr-veryDarkMagenta: hsl(300, 43%, 22%);
     --clr-SoftPink: hsl(333, 80%, 67%);
 
     --clr-DarkGrayishMagenta: hsl(303, 10%, 53%);
@@ -45,6 +45,57 @@ body {
 }
 
 header h2{
-    color: var(--clr-eryDarkMagenta);
+    color: var(--clr-veryDarkMagenta);
     font-size: 2rem;
+}
+
+header p{
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    color: var(--clr-veryDarkMagenta);
+    line-height: 1.6;
+}
+
+.user-review{
+    color: var(--clr-veryDarkMagenta);
+    background-color: var(--clr-LightGrayishMagenta);
+    font-weight: 700;
+    padding-block: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.review-comments{
+    margin-top: 1rem;
+}
+
+.card{
+    background-color: var(--clr-veryDarkMagenta);
+    color: var(--clrWhite);
+    padding: 2.5rem 2rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.user-image{
+    width: 2.625rem; /* 42px */
+    height: 2.625rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.image-colton{
+    background-image: url("/images/image-colton.jpg");
+}
+
+.image-irene{
+    background-image: url("/images/image-irene.jpg");
+    
+}
+
+.image-anne{
+    background-image: url("/images/image-anne.jpg");
+
 }
