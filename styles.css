@@ -66,7 +66,7 @@ header p{
 }
 
 .review-comments{
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 
 .card{
@@ -112,4 +112,33 @@ header p{
 .user-name-title span{
     color: var(--clr-SoftPink);
     font-weight: 500;
+}
+
+@media all and (min-width: 900px) {
+    body{
+        /* background-color: red; */
+
+    }
+
+    .container{
+        max-width: 1200px;
+    }
+
+    .header-and-reviews{
+        display: flex;
+    }
+
+    .user-review{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: aqua;
+        width: 60%;
+        max-width: 27.75rem; /*44px*/
+        padding-inline: 2rem;
+    }
+
+    .review-comments{
+        margin-top: 0;
+    }
 }
