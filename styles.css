@@ -34,7 +34,7 @@ body {
 
 .container{
     width: 80%;
-    max-width: 375px;
+    max-width: 600px;
     margin: auto;
     padding: 5rem 1.5rem;
     border: 2px solid red;
@@ -114,7 +114,7 @@ header p{
     font-weight: 500;
 }
 
-@media all and (min-width: 900px) {
+@media all and (min-width: 1080px) {
     body{
         /* background-color: red; */
 
@@ -130,6 +130,7 @@ header p{
 
     header, .users-review{
         flex: 1;
+
     }
 
     .user-review{
@@ -137,9 +138,11 @@ header p{
         justify-content: space-between;
         align-items: center;
         background-color: aqua;
-        width: 60%;
+        width: 90%;
         max-width: 27.75rem; /*44px*/
-        padding-inline: 2rem;
+        padding-inline: 1.5rem;
+        margin-inline: auto;
+        
     }
 
     .review-comments{
