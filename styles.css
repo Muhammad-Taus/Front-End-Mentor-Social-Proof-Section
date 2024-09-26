@@ -137,6 +137,27 @@ header p{
 
     }
 
+    header{
+        margin-right: 32px;
+    }
+
+    .user-review-1{
+        display: flex;
+        justify-content: start;
+    }
+
+    .user-review-2{
+        display: flex;
+        justify-content: center;
+    }  
+    
+    .user-review-3{
+        display: flex;
+        justify-content: end;
+    } 
+    
+
+
     .user-review{
         display: flex;
         justify-content: space-between;
@@ -145,9 +166,16 @@ header p{
         width: 90%;
         max-width: 27.75rem; /*44px*/
         padding-inline: 1.5rem;
-        margin-inline: auto;
-        
+        /* margin-inline: auto; */
     }
+
+    /* .user-review:nth-child(2){
+        margin-left: 24px;
+    }
+
+    .user-review:nth-child(3){
+        margin-left: 48px;
+    } */
 
     .review-comments{
         margin-top: 0;
