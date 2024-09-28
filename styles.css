@@ -125,7 +125,7 @@ header p{
     }
 
     header h2{
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
 
     .header-and-reviews{
@@ -162,20 +162,11 @@ header p{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: aqua;
         width: 90%;
         max-width: 27.75rem; /*44px*/
         padding-inline: 1.5rem;
-        /* margin-inline: auto; */
+       
     }
-
-    /* .user-review:nth-child(2){
-        margin-left: 24px;
-    }
-
-    .user-review:nth-child(3){
-        margin-left: 48px;
-    } */
 
     .review-comments{
         margin-top: 0;
